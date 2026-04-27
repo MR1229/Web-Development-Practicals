@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DYPCET Official</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body{
+        background: linear-gradient(to right, #dbeafe, #eff6ff);
+        color:#1e293b;
+    }
+
+    header{
+        background: linear-gradient(135deg, #1e3a8a, #2563eb);
+        color:white;
+        padding:30px;
+        text-align:center;
+        box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header h1{
+        font-size:36px;
+    }
+
+    header h3{
+        margin-top:10px;
+        font-weight:300;
+    }
+
+    section{
+        padding:40px;
+    }
+
+    h2{
+        margin-bottom:15px;
+        color:#1e3a8a;
+        border-left:5px solid #2563eb;
+        padding-left:10px;
+    }
+
+    .links a{
+        display:block;
+        margin:8px 0;
+        text-decoration:none;
+        color:#2563eb;
+        font-weight:500;
+        transition:0.3s;
+    }
+
+    .links a:hover{
+        color:#1e3a8a;
+        transform:translateX(5px);
+    }
+
+    .card{
+        background:white;
+        padding:20px;
+        border-radius:15px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.1);
+        margin-top:20px;
+    }
+
+    .about p{
+        line-height:1.6;
+        text-align:justify;
+    }
+
+    .stats{
+        text-align:center;
+        margin-top:20px;
+        font-size:22px;
+        font-weight:bold;
+        color:#1e3a8a;
+    }
+
+    .image-banner{
+        width:100%;
+        border-radius:15px;
+        margin-top:20px;
+    }
+
+    .grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+        margin-top:20px;
+    }
+
+    .dept-card{
+        background:white;
+        border-radius:15px;
+        overflow:hidden;
+        box-shadow:0 5px 15px rgba(0,0,0,0.1);
+        transition:0.3s;
+        text-align:center;
+    }
+
+    .dept-card:hover{
+        transform:scale(1.05);
+    }
+
+    .dept-card img{
+        width:100%;
+        height:180px;
+        object-fit:cover;
+    }
+
+    .dept-card h3{
+        padding:15px;
+        font-size:18px;
+    }
+
+    .ranking img{
+        width:150px;
+        margin:10px;
+    }
+
+    video{
+        width:100%;
+        border-radius:15px;
+        margin-top:20px;
+    }
+
+    footer{
+        background:#1e3a8a;
+        color:white;
+        text-align:center;
+        padding:20px;
+        margin-top:30px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>D.Y. Patil College Of Engineering & Technology</h1>
+    <h3>Kasaba Bawada, Kolhapur - 416001</h3>
+</header>
+
+<section>
+    <h2>Academics @ DYPCET</h2>
+    <div class="links">
+        <a href="https://coek.dypgroup.edu.in/academics#syllabus">Syllabus</a>
+        <a href="https://coek.dypgroup.edu.in/academics#rules-regulations">Academic Rules & Regulations</a>
+        <a href="https://coek.dypgroup.edu.in/exam-cell">Exam Cell</a>
+        <a href="https://coek.dypgroup.edu.in/facilities/library">Central Library</a>
+    </div>
+</section>
+
+<section class="about">
+    <h2>About DYPCET</h2>
+    <div class="card">
+        <p>
+        D.Y. Patil College of Engineering & Technology in Kasaba Bawada, Kolhapur operates as a self-financing autonomous institution. Founded in 1984, the college has over four decades of excellence in technical education.
+
+        The institution holds Autonomous status by UGC and Shivaji University, AICTE approval, Government recognition, and NAAC 'A' Grade accreditation.
+        </p>
+    </div>
+
+    <div class="stats">
+        🎓 25,000+ Students
+    </div>
+
+    <img src="DYPCET.jpg" class="image-banner">
+</section>
+
+<section>
+    <h2>Rankings & Accreditations</h2>
+    <div class="card ranking">
+        <p><b>NAAC 'A' Grade - CGPA 3.08</b></p>
+        <img src="NAAC.jpg">
+
+        <p><b>NBA Re-accredited (3 Programs)</b></p>
+        <img src="NBA.jpg">
+
+        <p><b>UGC 2(f) & 12(B)</b></p>
+        <img src="UGC.jpg">
+    </div>
+</section>
+
+<section>
+    <h2>Departments</h2>
+
+    <div class="grid">
+
+        <div class="dept-card">
+            <a href="https://coek.dypgroup.edu.in/departments/computer-science-engineering">
+                <img src="CSE.jpg">
+                <h3>Computer Science Engineering</h3>
+            </a>
+        </div>
+
+        <div class="dept-card">
+            <a href="https://coek.dypgroup.edu.in/departments/cse-data-science">
+                <img src="DS.jpg">
+                <h3>Data Science</h3>
+            </a>
+        </div>
+
+        <div class="dept-card">
+            <a href="https://coek.dypgroup.edu.in/departments/cse-ai-ml">
+                <img src="AIML.jpg">
+                <h3>AI & ML</h3>
+            </a>
+        </div>
+
+        <div class="dept-card">
+            <a href="https://coek.dypgroup.edu.in/departments/electronics-telecommunication-engineering">
+                <img src="ENTC.jpg">
+                <h3>ENTC</h3>
+            </a>
+        </div>
+
+        <div class="dept-card">
+            <a href="https://coek.dypgroup.edu.in/departments/mechanical-engineering">
+                <img src="Mechanical.jpg">
+                <h3>Mechanical</h3>
+            </a>
+        </div>
+
+        <div class="dept-card">
+            <a href="https://coek.dypgroup.edu.in/departments/civil-engineering">
+                <img src="Civil.jpg">
+                <h3>Civil</h3>
+            </a>
+        </div>
+
+        <div class="dept-card">
+            <a href="https://coek.dypgroup.edu.in/departments/chemical-engineering">
+                <img src="Chemical.jpg">
+                <h3>Chemical</h3>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Campus Overview</h2>
+    <video controls>
+        <source src="DYPCET.mp4">
+    </video>
+</section>
+
+<footer>
+    <p>© 2026 DYPCET | Designed by Student</p>
+</footer>
+
+</body>
+</html>
