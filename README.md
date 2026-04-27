@@ -18,11 +18,11 @@ New practical files may be added and updated regularly as I continue learning an
 
 ## 🎯 Learning Purpose
 
-*Practice fundamental Web Development concepts
-*Understand structure and styling of web pages
-*Learn XML data representation and transformation
-*Improve practical and implementation skills
-*Maintain a proper record of academic lab work
+* Practice fundamental Web Development concepts
+* Understand structure and styling of web pages
+* Learn XML data representation and transformation
+* Improve practical and implementation skills
+* Maintain a proper record of academic lab work
 
 
 ## 📂 Repository Structure
