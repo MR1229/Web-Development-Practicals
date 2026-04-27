@@ -1,0 +1,23 @@
+books {
+    color: white;
+    background-color: pink;
+    width: 100%;
+}
+
+heading {
+    color: green;
+    font-size: 40px;
+    background-color: powderblue;
+}
+
+heading, title, author, publisher, edition {
+    display: inline;
+    /* No properties specified */
+}
+
+title {
+   /* display: inline; */
+    font-size: 25px;
+    font-weight: bold;
+}
+
